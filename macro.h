@@ -53,4 +53,6 @@ int _go_PyObject_DelAttrString(PyObject *o, const char *attr_name);
 
 int _go_PyObject_TypeCheck(PyObject *o, PyTypeObject *type);
 
+PyObject* _go_Py_BuildValue(const char* arg1, const char* arg2);
+
 #endif
